@@ -1,6 +1,6 @@
-"# Data-Analyses-on-movie-ratings-" 
 # Part 1 Hypothesis testing on Movie ratings
- Purpose: In this project, we have to demonstrate the essential skills involved in hypothesis testing. To do so, we will use a real dataset that stems from a replication attempt of published research (Wallisch & Whritner, 2017). 
+
+## Purpose: In this project, we have to demonstrate the essential skills involved in hypothesis testing. To do so, we will use a real dataset that stems from a replication attempt of published research (Wallisch & Whritner, 2017). 
 
 ### 1)	Are movies that are more popular (operationalized as having more ratings) rated higher than movies that are less popular? 
  Null Hypothesis : All Movies popular or less popular are rated Equally 
