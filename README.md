@@ -9,4 +9,4 @@ Link : [Go to Part 2 Prediction ](https://github.com/kewaljani/Data-Analyses-on-
 
 ### Part 3 of the Project (Machine Learning)
 
-Link : [Go to Part 3 Hypothesis Testing ](https://github.com/kewaljani/Data-Analyses-on-movie-ratings-/tree/main/Part3)
+Link : [Go to Part 3 Hypothesis Testing ](https://github.com/kewaljani/Data-Analyses-on-movie-ratings-/tree/main/Part%203)
