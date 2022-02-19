@@ -8,7 +8,7 @@
 #### Explicitly name the factors you found and decided to interpret meaningfully in 1a). 
 
 
-# Image
+! [correlation matrix](https://github.com/kewaljani/Data-Analyses-on-movie-ratings-/blob/main/Part%203/Sc/Correlation.PNG)  ![Spree Plot](https://github.com/kewaljani/Data-Analyses-on-movie-ratings-/blob/main/Part%203/Sc/1st.PNG)
 
 I found 11 eigen values to be more than 1 so for each eigen value I calculated which Question
 contribute the most. By plotting the contribution from loading matrix. I have included the plots in
@@ -30,13 +30,13 @@ Is ingenious/a deep thinker
 ### 2 Plot the data from columns 421-474 in the new coordinate system, where each dot represents
 A person, and the axes represent the factors you found in 1). Hint: If you identified more than 2 meaningful factors, it is a good idea to create several 2D (X vs. Y) subplots for better interpretability As I identified 11 factors the total plots I will get for each question will be 11*11 that is 121 but I am showing random 9
 
-# image 
+![subplots](https://github.com/kewaljani/Data-Analyses-on-movie-ratings-/blob/main/Part%203/Sc/2nd.PNG) 
 
 ### 3 Identify clusters in this new space. Use a method of your choice (e.g. kMeans, DBScan, hierarchical clustering) to do so. Determine the optimal number of clusters and identify which cluster a given user is part of.
 
 Now after getting all the relevant Questions, I Collected them in on array and used Kmeans library to plot the graph but before that I have to select the optimum number of clusters needed for doing so For that I ran the silhoute scores for cluster from 2-10 and got graph as shown below 
 
-# image
+![Sillhout score and K-means plot](https://github.com/kewaljani/Data-Analyses-on-movie-ratings-/blob/main/Part%203/Sc/3rd.PNG)
 
 This sates that the optimum number of cluster which I can select is 2 now I applied the clustering algorithm and got 2 clusters of the data divided in {0: 639, 1: 456}. We can give value of user to the Fitted model and will get output of the cluster the user is part of.
 
@@ -52,4 +52,6 @@ The input to this neural network is vector of length 77. It produces the output 
 
 I applied the PCA to the data set on 1-400 columns and repeated the above steps which I performed in PCA and found the most correlated movie rating. So instead of asking the user dataset of all the movies we can ask user these 90 movies to obtain the relevant data or replicate the dataset.
 
-# image
+![Movie list](https://github.com/kewaljani/Data-Analyses-on-movie-ratings-/blob/main/Part%203/Sc/last.PNG)
+
+
