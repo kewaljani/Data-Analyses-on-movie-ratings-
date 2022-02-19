@@ -8,7 +8,7 @@
 #### Explicitly name the factors you found and decided to interpret meaningfully in 1a). 
 
 
-! [correlation matrix](https://github.com/kewaljani/Data-Analyses-on-movie-ratings-/blob/main/Part%203/Sc/Correlation.PNG) 
+![correlation matrix](https://github.com/kewaljani/Data-Analyses-on-movie-ratings-/blob/main/Part%203/Sc/Correlation.PNG) 
 ![Spree Plot](https://github.com/kewaljani/Data-Analyses-on-movie-ratings-/blob/main/Part%203/Sc/1st.PNG)
 
 I found 11 eigen values to be more than 1 so for each eigen value I calculated which Question
